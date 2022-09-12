@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 200px
+}
+
+.market {
+    background-image: url("https://assets.ccbp.in/frontend/intermediate-rwd/popular-blog-marketing-strategies-sm-bg.png");
+    background-size: cover;
+}
+
+.button {
+    background-color: transparent;
+    color: white;
+    border-color: white;
+    margin: 15px;
+    height: 35px;
+}
+
+.heading {
+    color: white;
+    margin: 15px;
+    font-size: 25px;
+}
+
+.total-cards {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    border: 15px;
+    flex-wrap: wrap;
+}
+
+.bg-con {
+    background-color: #95b2ff;
+}
+
+@media screen and (min-width:768px) {
+    .market {
+        background-image: url("https://assets.ccbp.in/frontend/intermediate-rwd/popular-blog-marketing-strategies-lg-bg.png");
+        width: 400px;
+    }
+}
+
+@media screen and (min-width:1201px) {
+    .market {
+        order: 0;
+    }
+}
